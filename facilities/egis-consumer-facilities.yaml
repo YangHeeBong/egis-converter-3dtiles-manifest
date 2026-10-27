@@ -32,7 +32,7 @@ spec:
       terminationGracePeriodSeconds: 43200
       containers:
         - name: egis-consumer-facilities-container
-          image: digitaltwin-container.kr-central-2.kcr.dev/egis-dev-convert/egis-converter-facilities:20261005-b0a8154
+          image: digitaltwin-container.kr-central-2.kcr.dev/egis-dev-convert/egis-converter-facilities:20261027-cde890d
           env:
             - name: POD_NAME
               valueFrom:
